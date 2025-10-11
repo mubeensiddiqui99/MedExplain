@@ -3,10 +3,11 @@ import google.generativeai as genai
 import PyPDF2
 import io
 import os
-from dotenv import load_dotenv
+#ucomment for local testing, causing issues in streamlit deployment
+#from dotenv import load_dotenv
 
 
-load_dotenv()
+#load_dotenv()
 
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
