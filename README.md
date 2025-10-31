@@ -14,7 +14,7 @@ Highlights normal and abnormal values
 Privacy-focused: data stays local by default
 
 🛠️ Quick Start
-git clone https://github.com/RayyanMinhaj/MedExplain.git
+git clone https://github.com/mubeensiddiqui99/MedExplain.git
 cd MedExplain
 pip install -r requirements.txt
 python app.py
